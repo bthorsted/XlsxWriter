@@ -15,7 +15,7 @@ setup(
     url="https://github.com/jmcnamara/XlsxWriter",
     packages=["xlsxwriter"],
     scripts=["examples/vba_extract.py"],
-    requires=["xlfmt==0.1.0"],
+    install_requires=["xlfmt==0.1.0"],
     license="BSD-2-Clause",
     description="A Python module for creating Excel XLSX files.",
     long_description=open("README.rst", encoding="utf-8").read(),
